@@ -40,7 +40,6 @@ def get_emergency_mac_mapping():
 
             # Fast work connections
             mac("h1"): 2, mac("h2"): 2, mac("h3"): 2, mac("h4"): 2, mac("h5"): 2,
-            # TODO: anche le connessioni laterali come fallback
         },
 
         5: {
