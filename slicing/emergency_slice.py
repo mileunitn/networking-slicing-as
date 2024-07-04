@@ -10,8 +10,6 @@ def get_emergency_mac_mapping():
             # Fast connection
             mac("h3"): 1, mac("h4"): 1, mac("h5"): 1,
             mac("ps"): 1, 
-
-            # TODO: Anche questa sarebbe corretta mac("ps"): 2, 
         },
 
         2: {
@@ -32,8 +30,6 @@ def get_emergency_mac_mapping():
             # Fast connection
             mac("h1"): 1, mac("h2"): 1, mac("h5"): 1,
             mac("ps"): 1, 
-
-            # TODO: Anche questa sarebbe corretta mac("ps"): 2, 
         },
 
         4: {
@@ -55,12 +51,10 @@ def get_emergency_mac_mapping():
     }
 
 
-        # TODO: ma h5? sarebbe figo fare una linea a 100mb che passa per 4-5-2 per connettere
-        # vc1 e vc2 a h5
 
 
 def get_emergency_forbidden():
-    # Isolating gaming hosts and server
+    # Isolating conference hosts and server
 
     isolated_hosts = set([ mac("vc1"), mac("vc2"), mac("ds")])
 
