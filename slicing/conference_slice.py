@@ -62,10 +62,6 @@ def get_conference_mac_mapping():
     }
 
 
-        # TODO: ma h5? sarebbe figo fare una linea a 100mb che passa per 4-5-2 per connettere
-        # vc1 e vc2 a h5
-
-
 def get_conference_forbidden():
     # Basically every host can communicate with the others, with the exeption of the production
     # server, that is isolated
